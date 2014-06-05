@@ -19,6 +19,7 @@
 		7116F75319410931006C8F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F73B19410930006C8F06 /* UIKit.framework */; };
 		7116F75B19410931006C8F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7116F75919410931006C8F06 /* InfoPlist.strings */; };
 		7116F75D19410931006C8F06 /* PickingDessertsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F75C19410931006C8F06 /* PickingDessertsTests.m */; };
+		7116F7681941093C006C8F06 /* PDPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F7671941093C006C8F06 /* PDPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		7116F75819410931006C8F06 /* PickingDessertsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickingDessertsTests-Info.plist"; sourceTree = "<group>"; };
 		7116F75A19410931006C8F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7116F75C19410931006C8F06 /* PickingDessertsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickingDessertsTests.m; sourceTree = "<group>"; };
+		7116F7661941093C006C8F06 /* PDPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDPickerViewController.h; sourceTree = "<group>"; };
+		7116F7671941093C006C8F06 /* PDPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDPickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				7116F74619410930006C8F06 /* PDAppDelegate.h */,
 				7116F74719410930006C8F06 /* PDAppDelegate.m */,
+				7116F7661941093C006C8F06 /* PDPickerViewController.h */,
+				7116F7671941093C006C8F06 /* PDPickerViewController.m */,
 				7116F74919410930006C8F06 /* Images.xcassets */,
 				7116F73E19410930006C8F06 /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7116F7681941093C006C8F06 /* PDPickerViewController.m in Sources */,
 				7116F74819410930006C8F06 /* PDAppDelegate.m in Sources */,
 				7116F74419410930006C8F06 /* main.m in Sources */,
 			);
