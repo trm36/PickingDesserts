@@ -1,5 +1,5 @@
-PickingDeserts
-==============
+PickingDesserts
+===============
 
 A simple app with a picker view datasource and delegate
 
